@@ -1,0 +1,10 @@
+{
+  "name": "MVP Scope Cutter",
+  "slug": "mvp-scope-cutter",
+  "description": "Cut a product down to the smallest real MVP worth building.",
+  "version": "0.1.0",
+  "tags": ["mvp", "scope", "execution"],
+  "inputs": ["wedge_statement", "desired_features", "time_target", "constraints"],
+  "outputs": ["must_have_flow", "defer_list", "non_goals", "build_cut"],
+  "recommended_next_skills": ["pricing-motion-selector", "gtm-channel-picker"]
+}

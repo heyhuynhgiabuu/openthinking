@@ -1,0 +1,10 @@
+{
+  "name": "GTM Channel Picker",
+  "slug": "gtm-channel-picker",
+  "description": "Pick one practical acquisition channel for an early product.",
+  "version": "0.1.0",
+  "tags": ["gtm", "distribution", "growth"],
+  "inputs": ["icp", "wedge", "product_type", "founder_strengths", "available_assets"],
+  "outputs": ["primary_channel", "why_it_fits", "30_day_plan", "metrics"],
+  "recommended_next_skills": ["weekly-review-and-kill-check"]
+}

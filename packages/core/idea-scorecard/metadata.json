@@ -1,0 +1,10 @@
+{
+  "name": "Idea Scorecard",
+  "slug": "idea-scorecard",
+  "description": "Evaluate whether a solo-builder idea is worth pursuing now.",
+  "version": "0.1.0",
+  "tags": ["idea-validation", "solo-builder", "decision"],
+  "inputs": ["idea", "builder_strengths", "time_budget", "target_customer_guess", "business_model_guess"],
+  "outputs": ["idea_scorecard", "decision_recommendation", "top_risks", "key_assumptions"],
+  "recommended_next_skills": ["icp-pain-map", "wedge-positioning"]
+}

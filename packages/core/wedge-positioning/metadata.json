@@ -1,0 +1,10 @@
+{
+  "name": "Wedge Positioning",
+  "slug": "wedge-positioning",
+  "description": "Pick one narrow entry point and clear promise for a solo-builder product.",
+  "version": "0.1.0",
+  "tags": ["positioning", "wedge", "messaging"],
+  "inputs": ["idea_scorecard", "icp_pain_map", "competitor_context"],
+  "outputs": ["wedge_statement", "promise_statement", "anti_positioning", "use_cases"],
+  "recommended_next_skills": ["mvp-scope-cutter", "gtm-channel-picker"]
+}

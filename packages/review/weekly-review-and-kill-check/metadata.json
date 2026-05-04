@@ -1,0 +1,10 @@
+{
+  "name": "Weekly Review and Kill Check",
+  "slug": "weekly-review-and-kill-check",
+  "description": "Review weekly progress and decide whether to continue, revise, or kill a project.",
+  "version": "0.1.0",
+  "tags": ["review", "founder-discipline", "execution"],
+  "inputs": ["weekly_progress", "user_feedback", "usage_signals", "open_questions"],
+  "outputs": ["decision", "learned_truth", "next_priority", "stop_list", "drift_warnings"],
+  "recommended_next_skills": ["idea-scorecard", "mvp-scope-cutter", "gtm-channel-picker"]
+}

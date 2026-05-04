@@ -1,0 +1,10 @@
+{
+  "name": "Pricing Motion Selector",
+  "slug": "pricing-motion-selector",
+  "description": "Choose the right pricing motion for a product: freemium, trial, paid pilot, or paid starter.",
+  "version": "0.1.0",
+  "tags": ["pricing", "monetization", "saas"],
+  "inputs": ["product_shape", "support_burden", "cost_to_serve", "onboarding_complexity", "buyer_type"],
+  "outputs": ["pricing_motion", "why_this_fits", "why_others_fail", "test_plan"],
+  "recommended_next_skills": ["gtm-channel-picker", "weekly-review-and-kill-check"]
+}

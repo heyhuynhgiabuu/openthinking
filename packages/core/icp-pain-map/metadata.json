@@ -1,0 +1,10 @@
+{
+  "name": "ICP Pain Map",
+  "slug": "icp-pain-map",
+  "description": "Turn a vague audience into one concrete user and urgent pain statement.",
+  "version": "0.1.0",
+  "tags": ["icp", "positioning", "customer"],
+  "inputs": ["idea_brief", "market_guess", "known_user_examples"],
+  "outputs": ["primary_icp", "urgent_pain", "current_workaround", "rejected_icps"],
+  "recommended_next_skills": ["wedge-positioning", "mvp-scope-cutter"]
+}
