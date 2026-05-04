@@ -1,45 +1,50 @@
 # OpenThinking
 
-**OpenThinking** is a narrow skill library for solo builders.
+**OpenThinking** is a small skill library for solo builders who need better product decisions.
 
-It helps a builder decide:
-- whether an idea is worth pursuing
-- who it is really for
-- what the wedge should be
-- what to cut from the MVP
-- how to price it
-- which GTM channel to start with
-- when to keep going or kill the project
+It helps answer:
+- is this idea worth pursuing?
+- who is it really for?
+- what should the wedge be?
+- what should I cut from the MVP?
+- how should I price it?
+- which GTM channel should I start with?
+- when should I keep going, revise, or kill the project?
 
-This repo is not a founder second brain, not a prompt marketplace, and not a vague AI copilot.
-It is a small set of installable decision skills.
+This repo is **not**:
+- a founder OS
+- a second-brain app
+- a prompt marketplace
+- a vague AI copilot for everything
+
+It is a narrow set of installable decision skills.
 
 ## Core rule
 
 > Build something narrow, simple, self-evidently useful, and easy to adopt — then find a real distribution loop.
 
-That rule is the filter for every skill in this repo.
+That rule is the scope filter for every skill in this repo.
 
 ## Why this exists
 
-Solo builders do not usually fail because they cannot generate ideas.
+Solo builders usually do not fail because they lack ideas.
 They fail because they:
 - pick weak ideas
 - target everyone
 - build too much
 - price badly
 - chase too many channels
-- keep going long after the evidence is weak
+- keep going after the evidence gets weak
 
-OpenThinking is meant to push against that.
+OpenThinking is designed to push against that.
 
 ## Install
 
-After this repo is pushed to GitHub:
+From GitHub:
 
 ```bash
-npx skills add <owner>/openthinking --list
-npx skills add <owner>/openthinking --skill idea-scorecard
+npx skills add heyhuynhgiabuu/openthinking --list
+npx skills add heyhuynhgiabuu/openthinking --skill idea-scorecard
 ```
 
 Local development:
@@ -48,6 +53,21 @@ Local development:
 npx skills add . --list
 npx skills add . --skill idea-scorecard
 ```
+
+## Start here
+
+If you are trying OpenThinking for the first time, use this flow:
+
+1. `idea-scorecard`
+2. `icp-pain-map`
+3. `wedge-positioning`
+4. `mvp-scope-cutter`
+5. `pricing-motion-selector`
+6. `gtm-channel-picker`
+7. `weekly-review-and-kill-check` every week once the project is live
+
+Worked example:
+- `examples/solo-builder-decision-flow.md`
 
 ## Skills
 
@@ -66,20 +86,14 @@ npx skills add . --skill idea-scorecard
 ### Review
 - `weekly-review-and-kill-check` — review progress and decide whether to continue, revise, or kill
 
-## What good use looks like
+## What makes a good skill here
 
-A good usage chain is:
-
-1. run `idea-scorecard`
-2. run `icp-pain-map`
-3. run `wedge-positioning`
-4. run `mvp-scope-cutter`
-5. run `pricing-motion-selector`
-6. run `gtm-channel-picker`
-7. use `weekly-review-and-kill-check` every week after launch
-
-Worked example:
-- `examples/solo-builder-decision-flow.md`
+Each skill should:
+- solve one specific decision problem
+- ask only the missing questions
+- produce a reusable artifact
+- recommend the next skill when appropriate
+- stay narrow enough to be reliably useful
 
 ## Repo layout
 
@@ -91,19 +105,15 @@ openthinking/
 └── packages/    # internal/source grouping, not required for installation
 ```
 
-## Publish checklist
+## Important docs
 
-Before publishing publicly, use:
+- `docs/product-principles.md`
+- `docs/skill-format.md`
 - `docs/publish-checklist.md`
-
-## Doctrine docs
-
-These are source material for the initial skills:
+- `docs/github-launch-notes.md`
 - `PLAYBOOK_2026_SAAS.md`
 - `GTM_FRAMEWORK.md`
 - `PRICING_DECISION_TREE.md`
-- `docs/product-principles.md`
-- `docs/skill-format.md`
 
 ## Non-goals
 
@@ -112,9 +122,14 @@ Do not turn this repo into:
 - a journaling app
 - a generic startup advice dump
 - a broad “build your startup with AI” platform
-- a 30-skill catalog full of overlap
+- a 30-skill catalog with overlapping advice
 
 ## Current status
 
-The top-level `skills/` directory is already discoverable by the `skills` CLI.
-The repo currently has 7 installable skills and worked examples for the full early decision chain.
+- top-level `skills/` directory is discoverable by the `skills` CLI
+- 7 installable skills are included
+- worked examples exist for the full early decision chain
+
+## License
+
+MIT
