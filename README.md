@@ -111,9 +111,6 @@ openthinking/
 - `docs/skill-format.md`
 - `docs/publish-checklist.md`
 - `docs/github-launch-notes.md`
-- `PLAYBOOK_2026_SAAS.md`
-- `GTM_FRAMEWORK.md`
-- `PRICING_DECISION_TREE.md`
 
 ## Non-goals
 
